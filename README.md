@@ -35,5 +35,4 @@ Afin d'optimiser les performances des requêtes décisionnelles, nous avons choi
   * `Dim_Drivers` (Nom, nationalité, date de naissance).
   * `Dim_Constructors` (Nom, nationalité).
   * `Dim_Circuits` (Localisation, altitude, nom).
-
-Dim_Time (Saison, année).
+  * `Dim_Time` (Saison, année).
