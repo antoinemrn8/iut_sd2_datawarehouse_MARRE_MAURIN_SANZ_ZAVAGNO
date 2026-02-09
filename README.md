@@ -23,8 +23,8 @@ Le projet suit le flux de travail suivant :
 
 1. **Sources :** Données brutes de Kaggle (CSV).
 2. **ETL (Extract, Transform, Load) :**
-* Nettoyage des données (gestion des valeurs manquantes \N, suppression des doublons).
-* Harmonisation des noms de pays et formats de dates.
+ * Nettoyage des données (gestion des valeurs manquantes \N, suppression des doublons).
+ * Harmonisation des noms de pays et formats de dates.
 3. Data Warehouse : Stockage structuré pour l'analyse.
 4. Reporting : Création de tableaux de bord interactifs.
 
