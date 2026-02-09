@@ -1,1 +1,8 @@
-# iut_sd2_datawarehouse_MARRE_MAURIN_SANZ_ZAVAGNO
+# SAE Intégration de données dans un datawarehouse
+
+**Participants :**
+* MARRE Ewann
+* MAURIN Antoine
+* SANZ Rafaël
+* ZAVAGNO Quentin
+
