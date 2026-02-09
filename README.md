@@ -43,6 +43,6 @@ Afin d'optimiser les performances des requêtes décisionnelles, nous avons choi
  ```
 git clone https://github.com/votre-repo/sae-302-f1.git
 ```
-4. **Exécution de l'ETL :** (Précisez la commande pour lancer votre script de nettoyage).
+3. **Exécution de l'ETL :** (Précisez la commande pour lancer votre script de nettoyage).
 
 
