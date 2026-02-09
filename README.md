@@ -40,7 +40,9 @@ Afin d'optimiser les performances des requêtes décisionnelles, nous avons choi
 ## Installation et Utilisation
 1. **Prérequis :** (Ex: PDI, PostgreSQL, Power BI).
 2. **Clonage du dépôt :**
- ```git clone https://github.com/votre-repo/sae-302-f1.git```
-3. **Exécution de l'ETL :** (Précisez la commande pour lancer votre script de nettoyage).
+ ```
+git clone https://github.com/votre-repo/sae-302-f1.git
+```
+4. **Exécution de l'ETL :** (Précisez la commande pour lancer votre script de nettoyage).
 
 
