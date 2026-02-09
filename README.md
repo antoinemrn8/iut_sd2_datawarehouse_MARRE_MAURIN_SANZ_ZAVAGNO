@@ -30,10 +30,10 @@ Le projet suit le flux de travail suivant :
 
 ## Modélisation (Schéma en Étoile)
 Afin d'optimiser les performances des requêtes décisionnelles, nous avons choisi une modélisation en étoile :
-**Table de Fait :** `Fact_Results` (contient les mesures : points, position, rang, temps).
-**Dimensions :**
-* `Dim_Drivers` (Nom, nationalité, date de naissance).
-* `Dim_Constructors` (Nom, nationalité).
-* `Dim_Circuits` (Localisation, altitude, nom).
+* **Table de Fait :** `Fact_Results` (contient les mesures : points, position, rang, temps).
+* **Dimensions :**
+  * `Dim_Drivers` (Nom, nationalité, date de naissance).
+  * `Dim_Constructors` (Nom, nationalité).
+  * `Dim_Circuits` (Localisation, altitude, nom).
 
 Dim_Time (Saison, année).
