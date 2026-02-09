@@ -14,6 +14,6 @@ L'analyse vise à répondre à plusieurs problématiques métiers pour une écur
 
 ## Source des Données
 Les données utilisées proviennent de la plateforme Kaggle :
-* **Lien :** [Formula 1 World Championship (1950-2020)](https://www.canva.com/design/DAHArW4maSc/Z1LiJy4RqfNhdi0O4NKEow/edit)
+* **Lien :** [Formula 1 World Championship (1950-2020)](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020)
 * **Format :** Fichiers CSV multiples (drivers, circuits, results, constructors, lap_times, etc.).
 * **Volume :** Environ 14 tables couvrant plus de 70 ans d'histoire de la F1.
