@@ -17,3 +17,23 @@ Les données utilisées proviennent de la plateforme Kaggle :
 * **Lien :** [Formula 1 World Championship (1950-2020)](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020)
 * **Format :** Fichiers CSV multiples (drivers, circuits, results, constructors, lap_times, etc.).
 * **Volume :** Environ 14 tables couvrant plus de 70 ans d'histoire de la F1.
+
+## Pipeline BI (Architecture)
+Le projet suit le flux de travail suivant :
+
+1. **Sources :** Données brutes de Kaggle (CSV).
+2. **ETL (Extract, Transform, Load) :**
+* Nettoyage des données (gestion des valeurs manquantes \N, suppression des doublons).
+* Harmonisation des noms de pays et formats de dates.
+3. Data Warehouse : Stockage structuré pour l'analyse.
+4. Reporting : Création de tableaux de bord interactifs.
+
+## Modélisation (Schéma en Étoile)
+Afin d'optimiser les performances des requêtes décisionnelles, nous avons choisi une modélisation en étoile :
+**Table de Fait :** `Fact_Results` (contient les mesures : points, position, rang, temps).
+**Dimensions :**
+* `Dim_Drivers` (Nom, nationalité, date de naissance).
+* `Dim_Constructors` (Nom, nationalité).
+* `Dim_Circuits` (Localisation, altitude, nom).
+
+Dim_Time (Saison, année).
