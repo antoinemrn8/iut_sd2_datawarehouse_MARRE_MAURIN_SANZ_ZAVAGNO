@@ -6,11 +6,11 @@
 Ce projet s'inscrit dans le cadre de la SAÉ 302 de l'IUT Lumière Lyon 2 (Année 2025-2026). L'objectif est de mettre en œuvre un pipeline décisionnel complet — de l'extraction des données brutes jusqu'à la visualisation — appliqué au monde de la Formule 1.
 
 ## Objectifs Décisionnels
-L'analyse vise à répondre à plusieurs problématiques métiers pour une écurie ou un analyste sportif :
-* **Performance Historique :** Quels sont les circuits où un pilote ou un constructeur spécifique performe le mieux ?
+L'analyse vise à répondre au questions que les fans auraient sur le monde de la F1 :
+* **Performance Historique :** Quels sont les plus grands constructeurs de l'histoire ?
 * **Évolution Technologique :** Comment les temps au tour ont-ils évolué sur un même circuit au fil des décennies ?
-* **Fiabilité :** Quel est le taux d'abandon par constructeur et par type de problème mécanique ?
-* **Analyse de Carrière :** Corrélation entre la position de départ (qualifications) et le résultat final en course.
+* **Fiabilité :** Quel est le taux d'abandon par constructeur ?
+* **Analyse de Carrière :** Quelle pilote a la meilleure postition d'arrivée moyenne ?
 
 ## Source des Données
 Les données utilisées proviennent de la plateforme Kaggle :
