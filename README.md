@@ -3,7 +3,7 @@
 **Participants :** MARRE Ewann / MAURIN Antoine / SANZ Rafaël / ZAVAGNO Quentin
 
 ## Présentation du Projet
-Ce projet s'inscrit dans le cadre de la SAÉ 302 de l'IUT Lumière Lyon 2 (Année 2025-2026). L'objectif est de mettre en œuvre un pipeline décisionnel complet — de l'extraction des données brutes jusqu'à la visualisation — appliqué au monde de la Formule 1.
+Ce projet s'inscrit dans le cadre de la SAÉ 302 de l'IUT Lumière Lyon 2 (Année 2025-2026). L'objectif est de mettre en œuvre un pipeline décisionnel complet — de l'extraction des données brutes jusqu'à la visualisation — appliqué dans notre cas, au monde de la Formule 1.
 
 ## Objectifs Décisionnels
 L'analyse vise à répondre au questions que les fans auraient sur le monde de la F1 :
