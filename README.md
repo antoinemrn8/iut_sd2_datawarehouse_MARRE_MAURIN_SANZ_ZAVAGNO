@@ -4,20 +4,20 @@
 **Établissement :** IUT Lumière Lyon 2  
 **Département :** Science des Données
 
-## 👥 Équipe Projet
+## Équipe Projet
 * **MARRE Ewann**
 * **MAURIN Antoine**
 * **SANZ Rafaël**
 * **ZAVAGNO Quentin**
 
----
 
-## 🏎️ Présentation du Projet
+## 1. Présentation du Projet
 Ce projet s'inscrit dans le cadre de la SAÉ 302. L'objectif est de concevoir et mettre en œuvre un pipeline décisionnel complet (BI) — de l'extraction des données brutes jusqu'à la visualisation — appliqué à l'historique du championnat du monde de **Formule 1**.
 
 Nous avons transformé des fichiers plats hétérogènes en un système d'information décisionnel performant permettant d'analyser plus de 70 ans de courses.
 
-## 🎯 Objectifs Décisionnels
+
+## 2. Objectifs Décisionnels
 L'analyse vise à répondre aux questions clés que les fans ou les analystes sportifs se posent :
 * **Performance Historique :** Quels sont les pilotes et constructeurs les plus titrés de l'histoire ?
 * **Évolution Technologique :** Comment les temps au tour et les vitesses ont-ils évolué sur un même circuit au fil des décennies ?
@@ -25,9 +25,8 @@ L'analyse vise à répondre aux questions clés que les fans ou les analystes sp
 * **Analyse de Carrière :** Quel pilote a la meilleure position d'arrivée moyenne ?
 * **Géographie :** Répartition mondiale des Grands Prix.
 
----
 
-## 📂 Architecture et Pipeline BI
+## 3. Architecture et Pipeline BI
 Le projet suit une architecture en couches classiques, orchestrée par **Pentaho Data Integration (PDI)** :
 
 1.  **Sources de Données (CSV) :**
@@ -52,9 +51,8 @@ Le projet suit une architecture en couches classiques, orchestrée par **Pentaho
 5.  **Reporting (Power BI) :**
     * Tableau de bord interactif (`PB_F1.pbix`) connecté au DWH.
 
----
 
-## 📐 Modélisation (Schéma en Étoile)
+## 4. Modélisation (Schéma en Étoile)
 Afin d'optimiser les performances des requêtes analytiques, nous avons modélisé les données comme suit :
 
 ### Tables de Faits
@@ -69,9 +67,8 @@ Afin d'optimiser les performances des requêtes analytiques, nous avons modélis
 * **`dim_saisons`** & **`dim_calendrier`** : Axe temporel.
 * **`dim_status`** : Référentiel des causes de fin de course (Fini, Accident, Panne...).
 
----
 
-## 🛠️ Installation et Utilisation
+## 5. Installation et Utilisation
 
 ### Prérequis
 * **SGBD :** PostgreSQL
@@ -106,9 +103,8 @@ Afin d'optimiser les performances des requêtes analytiques, nous avons modélis
     * Ouvrir le fichier `PB_F1.pbix`.
     * Actualiser les données (nécessite de pointer vers votre instance locale PostgreSQL).
 
----
 
-## 📂 Structure du projet
+## 6. Structure du projet
 
 ```text
 📦 dwh_marre_maurin_sanz_zavagno_5
@@ -123,6 +119,8 @@ Afin d'optimiser les performances des requêtes analytiques, nous avons modélis
  ┣ 📜 PB_F1.pbix           # Rapport Power BI
  ┗ 📜 README.md
 ```
+
+
 ## 🔗 Liens utiles
 * [Lien du tableau de bord](https://github.com/antoinemrn8/DWH_MARRE_MAURIN_SANZ_ZAVAGNO_5/blob/main/PB_F1.pbix)
 * [Lien du rapport](https://github.com/antoinemrn8/DWH_MARRE_MAURIN_SANZ_ZAVAGNO_5/blob/main/DWH-MARRE-MAURIN-SANZ-ZAVAGNO-5.pdf)
